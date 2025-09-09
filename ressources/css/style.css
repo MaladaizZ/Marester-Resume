@@ -6,3 +6,42 @@
     src: url(../fonts/Raleway-Regular.ttf) format(truetype);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family:"Lato" ;
+}
+h2{
+    font-family: "Lato";
+}
+
+h3{
+    font-family: "Lato";
+    color: #17abb3;
+}
+
+p{
+    font-family: "Raleway";
+}
+body {
+    display: flex;
+    justify-content: center;
+    min-width: 1160px;
+}
+
+.photoprofil {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+header {
+    color: white;
+    background-color: #17abb3;
+    text-align: center;
+}
