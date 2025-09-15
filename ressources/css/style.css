@@ -5,10 +5,11 @@
     src: url(../fonts/Raleway-Regular.woff);
     src: url(../fonts/Raleway-Regular.ttf) format(truetype);
 }
-
+/* style generale */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h1{
@@ -26,10 +27,24 @@ h3{
 p{
     font-family: "Raleway";
 }
+
+.gras{
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* style sur le contenu */
+
 body {
     display: flex;
     justify-content: center;
-    min-width: 1160px;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: flex-start;
 }
 
 .photoprofil {
@@ -38,10 +53,42 @@ body {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    float: left;
 }
 
 header {
     color: white;
+    background-color: #17abb3;
+    text-align: center;
+}
+
+/* style pour la barre de menu a gauche */
+
+aside{
+    width: 200px;
+    float: left;
+    height: 630px;
+    padding: 20px;
+    background-color: #e3e3e3;
+    padding: 20px;
+}
+.menugauche{
+    padding: 5px;
+}
+
+li {
+    padding: 3px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.carre{
+    list-style-type:square;
+}
+
+footer{
     background-color: #17abb3;
     text-align: center;
 }
