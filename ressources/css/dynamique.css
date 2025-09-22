@@ -5,5 +5,28 @@
 
 .fox{
     text-decoration: none;
+    color: white;
 
 }
+
+.liste-header {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.liste-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 200px;
+    margin: 0 auto;
+    list-style: none;
+}
+.listheader {
+    flex-basis: 50%;
+}
+

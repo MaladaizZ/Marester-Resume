@@ -15,6 +15,7 @@
 h1{
     font-family:"Lato" ;
 }
+
 h2{
     font-family: "Lato";
 }
@@ -54,6 +55,11 @@ body {
     height: 100px;
     object-fit: cover;
     float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.borys:hover{
+    cursor: zoom-in;
 }
 
 header {
