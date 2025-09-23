@@ -30,3 +30,9 @@
     flex-basis: 50%;
 }
 
+.not:hover {
+    background-color: #e3e3e3;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #17abb3;
+}

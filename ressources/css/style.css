@@ -5,6 +5,7 @@
     src: url(../fonts/Raleway-Regular.woff);
     src: url(../fonts/Raleway-Regular.ttf) format(truetype);
 }
+
 /* style sur les polices et Reset CSS */
 * {
     margin: 0;
@@ -12,29 +13,84 @@
     box-sizing: border-box;
 }
 
-h1{
-    font-family:"Lato" ;
-}
-
-h2{
+h1 {
     font-family: "Lato";
 }
 
-h3{
+h2 {
+    font-family: "Lato";
+}
+
+h3 {
     font-family: "Lato";
     color: #17abb3;
 }
 
-p{
+p {
     font-family: "Raleway";
 }
 
-.gras{
+a {
+    font-family: "Raleway";
+}
+
+.gras {
     font-weight: bold;
 }
 
 .italic {
     font-style: italic;
+}
+
+.photoprofil {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.borys:hover {
+    cursor: zoom-in;
+}
+
+header {
+    color: white;
+    background-color: #17abb3;
+    text-align: center;
+}
+
+/* style pour la barre de menu a gauche */
+
+aside {
+    width:350px;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.title01 {
+    padding: 0 0 20px 20px;
+}
+
+.menugauche {
+    padding: 5px;
+}
+
+li {
+    padding: 3px;
+    font-family: "Raleway";
+
+}
+
+.list {
+    list-style-type: none;
+}
+
+.carre {
+    list-style-type: square;
 }
 
 /* style sur le contenu */
@@ -48,53 +104,61 @@ body {
     align-items: flex-start;
 }
 
-.photoprofil {
-    border-radius: 50%;
-    border: 5px solid white;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    float: left;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-.borys:hover{
-    cursor: zoom-in;
+.body01 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
-header {
+.body02 {
+    padding: 15px 0 15px 0;
+}
+
+.body03 {
+    position: relative;
+    padding: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body04 {
+    position: absolute;
+    right: 0;
+    color: #17abb3;
+}
+
+.body05 {
+    padding-bottom: 20px;
+}
+
+.body06 {
+    height:max-content;
+    display: flex;
+}
+
+.body08 {
+    text-indent: 5%;
+}
+    /* stle pour le footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #17abb3;
+    text-align: center;
+}
+
+.foot {
+    flex-basis: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.foot2 {
+    flex-basis: 100%;
+    padding-bottom: 10px;
+    font-style: italic;
     color: white;
-    background-color: #17abb3;
-    text-align: center;
-}
-
-/* style pour la barre de menu a gauche */
-
-aside{
-    width: 200px;
-    float: left;
-    height: 630px;
-    padding: 20px;
-    background-color: #e3e3e3;
-    padding: 20px;
-}
-.menugauche{
-    padding: 5px;
-}
-
-li {
-    padding: 3px;
-}
-
-.list{
-    list-style-type: none;
-}
-
-.carre{
-    list-style-type:square;
-}
-
-footer{
-    background-color: #17abb3;
-    text-align: center;
 }
